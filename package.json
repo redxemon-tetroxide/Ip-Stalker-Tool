@@ -1,0 +1,38 @@
+{
+  "name": "ip-stalker-tool",
+  "version": "1.0.0",
+  "description": "A terminal-based IP tracking and analysis tool for stalking IPs, scanning networks, and more.",
+  "main": "ip-stalker.js",
+  "scripts": {
+    "start": "node ip-stalker.js"
+  },
+  "keywords": [
+    "ip-stalker",
+    "ip-tracking",
+    "network-scanner",
+    "reverse-dns",
+    "port-scanner",
+    "geolocation",
+    "cli-tool"
+  ],
+  "author": "Redwan Ahemed",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "inquirer": "^8.2.0",
+    "boxen": "^5.1.0",
+    "ora": "^6.0.1",
+    "progress": "^2.0.3",
+    "reverse-dns": "^1.0.0",
+    "ascii-charts": "^1.0.1",
+    "terminal-image": "^2.0.1",
+    "net-ping": "^1.0.0",
+    "ip-api": "^3.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
